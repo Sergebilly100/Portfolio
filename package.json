@@ -1,9 +1,12 @@
 {
-  "name": "u-bportfoliondefined",
+  "homepage": "https://Sergebilly100.github.io/Portfolio",
+  "name": "portfolio",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
