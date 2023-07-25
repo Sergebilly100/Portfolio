@@ -1,0 +1,131 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+import ContactCTA from '../components/ContactCTA.astro';
+import Hero from '../components/Hero.astro';
+---
+
+<BaseLayout title="À propos | Serge KOUAME" description="À propos de Serge KOUAME">
+	<div class="stack gap-20">
+		<main class="wrapper about">
+			<Hero
+				title="À propos"
+				tagline="Découvrez mon parcours et mes compétences."
+			>
+				<img
+					width="1553"
+					height="873"
+					src="/assets/at-work.jpg"
+					alt="Serge kouame - À propos"
+				/>
+			</Hero>
+
+			<section>
+				<h2 class="section-title">Présentation</h2>
+				<div class="content">
+					<p>
+						D'une formation initiale en informatique, je suis orienté vers les résultats et j'ai une passion pour les technologies de l'information. 
+						Maîtrisant les différentes étapes techniques, de la compréhension des besoins utilisateurs à la maintenance, 
+						j'ai acquis des compétences en développement front-end et back-end. <br/>
+						J'ai travaillé dans des environnements agiles, ce qui m'a permis de m'adapter rapidement aux nouvelles technologies et de livrer 
+						des projets de qualité à temps. 
+					</p>
+					<p> 
+						Ce qui me caractérise le plus, c'est ma capacité à m'adapter à de nouveaux environnements et à apprendre de nouvelles choses 
+						et de nouvelles technologies.<br/>
+						D'une nature ouverte, j'accorde une grande importance à la communication et au partage de connaissances.
+					</p>
+
+					<p> 
+					</p> 
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Formations</h2>
+				<div class="content">
+					<p>BTS en Informatique Développeur d'Applications (IDA).</p>
+				</div>
+			</section>
+			<section>
+				<h2 class="section-title">Aptitudes</h2>
+				<div class="content">
+					<p>
+						• Concevoir ou participer à la Conception et à la création de logiciels évolutifs en utilisant des
+						technologies modernes. <br/> 
+						• Expérience dans la compréhension des besoins des utilisateurs et la création de cahiers des charges pour
+						des projets web complexes.<br/>
+						• Développer et gérer des bases de données et des applications qui fonctionnent bien. <br/>
+						• Solide expérience en maintenance, correction de bugs, et amélioration de sites et applications web pour
+						assurer leur fonctionnement optimal.<br/>
+						• Expertise dans la création et l'intégration d'API sécurisées, scalables et performantes pour garantir une
+						compatibilité et une interopérabilité maximale avec d'autres systèmes.<br/>
+						• Capacité à gérer efficacement le temps et à respecter scrupuleusement les délais pour livrer des projets de
+						haute qualité dans les délais impartis.<br/>
+						• Bonne utilisation des logiciels Photoshop et Illustrator. <br/><br/>
+					</p>
+					<p>Curieux, Créatif, Autonome, Organisé, Dynamique, Polyvalent, Travail d'équipe.</p>
+				</div>
+			</section>
+		</main>
+
+		<ContactCTA />
+	</div>
+</BaseLayout>
+
+<style>
+	.about {
+		display: flex;
+		flex-direction: column;
+		gap: 3.5rem;
+	}
+
+	img {
+		margin-top: 1.5rem;
+		border-radius: 1.5rem;
+		box-shadow: var(--shadow-md);
+	}
+
+	section {
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		color: var(--gray-200);
+	}
+
+	.section-title {
+		grid-column-start: 1;
+		font-size: var(--text-xl);
+		color: var(--gray-0);
+	}
+
+	.content {
+		grid-column: 2 / 4;
+	}
+
+	.content :global(a) {
+		text-decoration: 1px solid underline transparent;
+		text-underline-offset: 0.25em;
+		transition: text-decoration-color var(--theme-transition);
+	}
+
+	.content :global(a:hover),
+	.content :global(a:focus) {
+		text-decoration-color: currentColor;
+	}
+
+	@media (min-width: 50em) {
+		.about {
+			display: grid;
+			grid-template-columns: 1fr 60% 1fr;
+		}
+
+		.about > :global(:first-child) {
+			grid-column-start: 2;
+		}
+
+		section {
+			display: contents;
+			font-size: var(--text-lg);
+		}
+	}
+</style>
