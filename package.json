@@ -1,18 +1,15 @@
 {
-  "homepage": "https://Sergebilly100.github.io/Portfolio",
-  "name": "portfolio",
+  "name": "",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
     "dev": "astro dev",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^2.9.2"
+    "astro": "^2.9.3"
   }
 }
