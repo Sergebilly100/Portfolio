@@ -1,21 +1,41 @@
 ---
 title: Séjour zen
-publishDate: 2019-12-01 00:00:00
+
+publishDate: 2022-10-21 00:00:00
+
 img: /Portfolio/assets/projets/sejour-zen-couverture.png
+
 img_gallery: [
 				"/Portfolio/assets/projets/sejour-zen-1.png", 
 				"/Portfolio/assets/projets/sejour-zen-2.png",
 				"/Portfolio/assets/projets/sejour-zen-3.png", 
 				"/Portfolio/assets/projets/sejour-zen-4.png", 
 			]
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: sejour zen couverture
+
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Plateforme de digitalisation des services touristiques en Afrique.
+
+annee: 2022
+
+category: Développement WEB
+
+equipe: Ivoire ZenTech
+
+reference : [
+	[
+		Romuald Krappa (Founder & CEO - IVOIRE ZENTECH), +33 7 83 36 53 43, romuald.krappa@teamzen-services.com
+	]
+]
+
+link: https://sejour-zen.com
+
 tags:
   - Dev
-  - Branding
+  - Fontend
   - Backend
+  - Intégration API
+  - Git
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.

@@ -44,16 +44,61 @@ const { Content } = await entry.render();
 				</div>
 			</header>
 			<main class="wrapper">
-				<div class="stack gap-10 content">
+				<div class="stack  content"> 
+					<div class="alert" >Cliquez sur l'image pour en voir plus</div>
 					<div class="zoom-gallery">
 						<a class="mb-1 mr-1" href={entry.data.img}  title ="Illustration du Projet">
 							{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
 						</a>
 						{entry.data.img_gallery.map((img) => <a class="mb-1 mr-1" href={img}  title ="Image"> </a> )} 
-					</div> 
-					<div class="content">
-						<Content />
 					</div>
+
+					{ entry.data.link && 
+						<p style="text-align: end;"> <a href={entry.data.link} target="blank"> Acceder au site </a></p> 
+					}
+
+					{ entry.data.category && 
+						<section>
+							<h5 class="section-title">Catégorie</h5>
+							<div class="content">
+								<p> {entry.data.category} </p>
+							</div> 
+						</section> 
+					 }
+
+					{ entry.data.annee && 
+						<section>
+							<h5 class="section-title">Année de réalisation</h5>
+							<div class="content">
+								<p> {entry.data.annee} </p>
+							</div> 
+						</section> 
+					}
+
+					{ entry.data.equipe && 
+						<section>
+							<h5 class="section-title">Équipe</h5>
+							<div class="content">
+								<p> {entry.data.equipe} </p>
+							</div> 
+						</section> 
+					}
+
+					{ entry.data.reference && 
+						<section>
+							<h5 class="section-title">Réference</h5>
+							<div class="content">
+							{
+								entry.data.reference.map((reference) => 
+									<p> 
+										{reference[0]}  <br/>{reference[1]}  <br/> {reference[2]} 
+									</p>
+								)
+								
+							}
+							</div> 
+						</section> 
+					}
 				</div>
 			</main>
 		</div>
@@ -152,5 +197,18 @@ const { Content } = await entry.render();
 		.content :global(blockquote) {
 			font-size: var(--text-2xl);
 		}
+	}
+
+	.alert  { 
+	  padding: 2px;
+	  gap: 0.5rem;
+	  color: var(--accent-text-over);
+	  border: 1px solid var(--accent-regular);
+	  background-color: var(--accent-regular);
+	  border-radius: 999rem;
+	  font-size: var(--text-md);
+	  line-height: 1.35;
+	  white-space: nowrap;
+	  text-align: center;
 	}
 </style>

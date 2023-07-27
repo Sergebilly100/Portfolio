@@ -1,21 +1,39 @@
 ---
 title: Assursuite v3
-publishDate: 2019-12-01 00:00:00
+
+publishDate: 2022-04-11 00:00:00
+
 img: /Portfolio/assets/projets/assursuite-couverture.png
+
 img_gallery: [
 				"/Portfolio/assets/projets/assursuite-1.png", 
 				"/Portfolio/assets/projets/assursuite-2.png",
 				"/Portfolio/assets/projets/assursuite-3.png", 
 				"/Portfolio/assets/projets/assursuite-4.png",
 			]
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: Assursuite v3 - AssurLand CI
+
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  ASSURSUITE v3 est une plateforme de gestion et de vente d'assurance en ligne utilisé par plusieurs millions de personne en Côte d'ivoire et dans d'autres pays
+   comme le Mali et le Sénégal.
+
+annee: 2022
+
+category: Développement WEB
+
+equipe: AssurLand Côte d'ivoire
+
+reference : [
+	[
+		Emmanuel Gona GUIEBI (Responsable IT - ASSURLAND CI), +225 07 78 017 155, gguiebi@gmail.com
+	]
+]
+
 tags:
   - Dev
-  - Branding
+  - Fontend
   - Backend
+  - Git
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.

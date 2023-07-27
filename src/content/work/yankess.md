@@ -1,7 +1,10 @@
 ---
 title: Yankess
-publishDate: 2019-12-01 00:00:00
+
+publishDate: 2021-09-01 00:00:00
+
 img: /Portfolio/assets/projets/yankess-couverture.png
+
 img_gallery: [
 				"/Portfolio/assets/projets/yankess-1.png", 
 				"/Portfolio/assets/projets/yankess-2.png",
@@ -13,14 +16,30 @@ img_gallery: [
 				"/Portfolio/assets/projets/yankess-8.png", 
 				"/Portfolio/assets/projets/yankess-9.png",
 			]
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: yankess couverture
+
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Application complète dans la gestion de caisse et du suivi d'une activité commerciale.
+
+annee: 2021
+
+category: Développement WEB
+
+equipe: Yann' Digital Technologies 
+
+reference : [
+	[
+		Armand ASSOUMAN (Directeur Technique - YANN' DIGITAL TECHNOLOGIES), +225 07 08 167 530, armand@yanndigitaltechnogies.com
+	],
+	[
+		Sunday YAO (Responsable IT - YANN' DIGITAL TECHNOLOGIES), +225 07 09 116 844, besselymail@gmail.com
+	], 
+]
+
 tags:
   - Dev
-  - Branding
-  - Backend
+  - Fontend
+  - Backend 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.

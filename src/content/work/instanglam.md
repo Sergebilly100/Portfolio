@@ -1,19 +1,38 @@
 ---
 title: Instanglam
-publishDate: 2019-12-01 00:00:00
+
+publishDate: 2020-04-01 00:00:00
+
 img: /Portfolio/assets/projets/instanglam-couverture.png
+
 img_gallery: [
 				"/Portfolio/assets/projets/instanglam-1.png", 
 				"/Portfolio/assets/projets/instanglam-2.png",
 			]
-img_alt: A bright pink sheet of paper used to wrap flowers curves in front of rich blue background
+img_alt: Instanglam
+
 description: |
-  We paired with a cutting-edge music API and a team of horticulturalists
-  to build AI-generated playlists that maximize houseplant health.
+  Site vitrine pour la présentation des services proposés par une institut de beauté.
+
+annee: 2020
+
+category: Développement WEB
+
+equipe: Yann' Digital Technologies 
+
+reference : [
+	[
+		Armand ASSOUMAN (Directeur Technique - YANN' DIGITAL TECHNOLOGIES), +225 07 08 167 530, armand@yanndigitaltechnogies.com
+	],
+	[
+		Sunday YAO (Responsable IT - YANN' DIGITAL TECHNOLOGIES), +225 07 09 116 844, besselymail@gmail.com
+	], 
+]
+
 tags:
   - Dev
-  - Branding
-  - Backend
+  - Fontend
+  - Backend 
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur posuere commodo venenatis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam non ligula vel metus efficitur hendrerit. In hac habitasse platea dictumst. Praesent et mauris ut mi dapibus semper. Curabitur tortor justo, efficitur sit amet pretium cursus, porta eget odio. Cras ac venenatis dolor. Donec laoreet posuere malesuada. Curabitur nec mi tempor, placerat leo sit amet, tincidunt est. Quisque pellentesque venenatis magna, eget tristique nibh pulvinar in. Vestibulum vitae volutpat arcu. Aenean ut malesuada odio, sit amet pellentesque odio. Suspendisse nunc elit, blandit nec hendrerit non, aliquet at magna. Donec id leo ut nulla sagittis sodales.

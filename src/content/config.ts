@@ -10,6 +10,11 @@ export const collections = {
 			img: z.string(),
 			img_alt: z.string().optional(), 
 			img_gallery: z.array(z.string()),
+			annee: z.number(),
+			category: z.string(),
+			equipe: z.string().optional(),
+			reference: z.array(z.array(z.string())).optional(), 
+			link: z.string().optional(),
 		}),
 	}),
 };
