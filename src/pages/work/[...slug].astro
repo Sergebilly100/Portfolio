@@ -32,7 +32,7 @@ const { Content } = await entry.render();
 		<div class="stack gap-15">
 			<header>
 				<div class="wrapper stack gap-2">
-					<a class="back-link" href="/work/"><Icon icon="arrow-left" /> Work</a>
+					<a class="back-link" href="/Portfolio/work/"><Icon icon="arrow-left" /> Projets</a>
 					<Hero title={entry.data.title} align="start">
 						<div class="details">
 							<div class="tags">
@@ -45,7 +45,12 @@ const { Content } = await entry.render();
 			</header>
 			<main class="wrapper">
 				<div class="stack gap-10 content">
-					{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+					<div class="zoom-gallery">
+						<a class="mb-1 mr-1" href={entry.data.img}  title ="Illustration du Projet">
+							{entry.data.img && <img src={entry.data.img} alt={entry.data.img_alt || ''} />}
+						</a>
+						{entry.data.img_gallery.map((img) => <a class="mb-1 mr-1" href={img}  title ="Image"> </a> )} 
+					</div> 
 					<div class="content">
 						<Content />
 					</div>
