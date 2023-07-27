@@ -57,6 +57,12 @@ const { Content } = await entry.render();
 						<p style="text-align: end;"> <a href={entry.data.link} target="blank"> Acceder au site </a></p> 
 					}
 
+					{ Content &&
+						<div class="content" style="margin-top: 30px;">
+							<Content />
+						</div>
+					} 
+
 					{ entry.data.category && 
 						<section>
 							<h5 class="section-title">Catégorie</h5>
