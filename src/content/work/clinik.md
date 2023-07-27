@@ -26,10 +26,10 @@ equipe: Ivoire ZenTech
 
 reference : [
 	[
-		Romuald Krappa (Founder & CEO - IVOIRE ZENTECH), +33 7 83 36 53 43, romuald.krappa@teamzen-services.com
+		Romuald KRAPPA (Founder & CEO - IVOIRE ZENTECH), +33 7 83 36 53 43, romuald.krappa@teamzen-services.com
 	],
 	[
-		Kevin Tiono (CTO - IVOIRE ZENTECH), +33 7 80 07 49 38, kevin.tiono@teamzen-services.com
+		Kevin TIONO (CTO - IVOIRE ZENTECH), +33 7 80 07 49 38, kevin.tiono@teamzen-services.com
 	]
 ]
 
