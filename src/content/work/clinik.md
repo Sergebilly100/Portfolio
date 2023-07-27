@@ -7,8 +7,10 @@ img: /Portfolio/assets/projets/clinik-couverture.png
 
 img_gallery: [
 				"/Portfolio/assets/projets/clinik-1.png", 
+				"/Portfolio/assets/projets/clinik-5.png", 
 				"/Portfolio/assets/projets/clinik-2.png",
 				"/Portfolio/assets/projets/clinik-3.png",
+				"/Portfolio/assets/projets/clinik-4.png",
 			]
 
 img_alt: clinik image
