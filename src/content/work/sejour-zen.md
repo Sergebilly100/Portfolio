@@ -38,5 +38,5 @@ tags:
   - Git
 ---
 
-Cette plateforme permet aux voyageurs de trouver des informations sur les appartements meublés ou des maisons en Afrique, et de faire des réservations en toute sécurité.
+Séjour ZEN est une plateforme de réservation de maison de vacances et de résidences meublées permettant aux clients d'accéder à une multitude de biens, de planifier sereinement leurs sejours et de sécuriser leurs transactions, et aux propriétaires de booster leurs réservations grâce à la visibilité qu'elle offre.
 
